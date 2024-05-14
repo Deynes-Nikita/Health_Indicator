@@ -694,6 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2e8221b85a8cf14b9b84c4a2d28d25e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Character: {fileID: 1433635792}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,7 +1115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b5c4fab5f794a409ca8e62faaec9d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _volumeChangeSpeed: 10
+  Character: {fileID: 1433635792}
+  _duration: 10
 --- !u!1 &968570727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,6 +1295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a61b6501d582daa45ab5bb5774f66786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Character: {fileID: 1433635792}
 --- !u!1 &1084017259
 GameObject:
   m_ObjectHideFlags: 0

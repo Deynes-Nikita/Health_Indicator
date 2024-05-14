@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Slider))]
-public class SliderBar : Bar
+public class SliderBar : DataIndicator
 {
     protected Slider _slider;
 
@@ -11,7 +11,7 @@ public class SliderBar : Bar
         _slider = GetComponent<Slider>();
     }
 
-    protected override void UpdateBar(float value, float maxValue)
+    protected override void UpdateData(float value, float maxValue)
     {
         _slider.value = value / maxValue;
     }

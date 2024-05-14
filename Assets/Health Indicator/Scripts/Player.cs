@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private Character _target;
+    [SerializeField] private Health _target;
     [SerializeField] private float _damage = 5;
     [SerializeField] private float _heal = 10;
 
